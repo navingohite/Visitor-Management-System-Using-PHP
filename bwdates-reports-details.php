@@ -14,7 +14,7 @@ if (strlen($_SESSION['navingohite'] == 0)) {
 
 
         if ($query) {
-            $msg = "Visitors Remark has been Updated.";
+            $msg = "Visitor details has been Updated.";
         } else {
             $msg = "Something Went Wrong. Please try again";
         }

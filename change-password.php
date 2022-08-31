@@ -14,10 +14,10 @@ if (strlen($_SESSION['navingohite'] == 0)) {
         $row = mysqli_fetch_array($query);
         if ($row > 0) {
             $ret = mysqli_query($con, "update tbladmin set Password='$newpassword' where ID='$adminid'");
-            $msg = "Your password successully changed";
+            $msg = "Your password successully changed !";
         } else {
 
-            $msg = "Your current password is wrong";
+            $msg = "Your current password is incorrect !";
         }
     }
 
